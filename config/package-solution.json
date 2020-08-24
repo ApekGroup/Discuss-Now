@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "discuss-now-extension-list-library",
+    "id": "b7b4637d-1064-427a-a4b0-ccc470819dfa",
+    "version": "1.0.0.2",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "features": [
+      {
+        "title": "Discuss Now - teams extension",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "8b0e18e4-865f-4327-afaf-7176e17fd71b",
+        "version": "1.0.0.2",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "clientsideinstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/discuss-now-extension.sppkg"
+  }
+}
